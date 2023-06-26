@@ -1,0 +1,3 @@
+# See lintian bug #1017966
+r-cran-brew source: source-is-missing [inst/brew-test-2.html]
+

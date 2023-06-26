@@ -1,0 +1,17 @@
+Author: Andreas Tille <tille@debian.org>
+Last-Update: Fri, 13 Jun 2014 22:52:06 +0200
+Description: Lintian claims potential privacy breach when using
+ external images.  Since there is no real need to put the logo on
+ this test page it will be removed.
+
+--- a/inst/brew-test-2.html
++++ b/inst/brew-test-2.html
+@@ -21,7 +21,7 @@ hr {background-color: #cccccc; border: 0
+ </head>
+ <body>
+ <a name="Top"> </a>
+-<a href="http://www.r-project.org/"><img class="map" alt="R Language Home Page" src="http://www.r-project.org/Rlogo.jpg"/></a>
++<a href="http://www.r-project.org/">R Language Home Page</a>
+ <div class="h">Everything You Wanted To Know About Your R Session</div>
+ <div class="map">
+ <p>jump to:</p>
